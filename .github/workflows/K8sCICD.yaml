@@ -29,7 +29,7 @@ jobs:
         run: |
           IMAGE_NAME=omerk160/nf:latest
           docker build -t $IMAGE_NAME .
-          docker push omerk160/$IMAGE_NAME
+          docker push $IMAGE_NAME
 
       # Step 4: Checkout Infrastructure Repository
       - name: Checkout Infrastructure Repository
