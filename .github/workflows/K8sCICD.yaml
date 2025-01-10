@@ -62,3 +62,5 @@ jobs:
           git add .
           git commit -m "Updated NetflixFrontend image to $IMAGE_NAME:$SHORT_COMMIT_ID"
           git push
+
+##test commit & push
