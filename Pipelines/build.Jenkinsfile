@@ -13,8 +13,8 @@ pipeline {
     }
 
     environment {
-        // GIT_COMMIT = sh(script: 'git rev-parse --short HEAD', returnStdout: true).trim()
-        // TIMESTAMP = new Date().format("yyyyMMdd-HHmmss")
+         GIT_COMMIT = sh(script: 'git rev-parse --short HEAD', returnStdout: true).trim()
+         TIMESTAMP = new Date().format("yyyyMMdd-HHmmss")
 
 
 
